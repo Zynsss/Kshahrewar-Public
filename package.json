@@ -1,0 +1,31 @@
+{
+  "name": "zynsmusicbotproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "<=14.16.1"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "array-move": "^3.0.1",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "i18n": "^0.13.2",
+    "lyrics-finder": "^21.4.0",
+    "express": "^4.17.2",
+    "simple-youtube-api": "^5.2.1",
+    "soundcloud-downloader": "^0.2.1",
+    "string-progressbar": "^1.0.4",
+    "ytdl-core": "4.10.0",
+    "ytdl-core-discord": "^1.2.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "node .": "node run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zynsss/ZynsMusicBotProject.git"
+  }
+}
